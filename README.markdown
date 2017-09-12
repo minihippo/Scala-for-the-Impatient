@@ -20,7 +20,7 @@
 
  
 
-**Chapter 2: Control Structures and Functions 17**
+#### Chapter 2: Control Structures and Functions 17
 
 2.1 Conditional Expressions 18
 
@@ -46,7 +46,7 @@
 
 2.12 Exceptions 29
 
-Exercises 31
+~~Exercises 31~~   *finish*
 
  
 
