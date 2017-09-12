@@ -1,4 +1,4 @@
-##Scala for the Impatient
+## Scala for the Impatient
 
 #### Chapter 1: The Basics 1
 
