@@ -2,7 +2,8 @@
 
 #### Exercises
 
-1. ~~~shell
+1. ans:
+   ~~~shell
    scala> def ans(arg:Int)= 
    	if (arg > 0 ) 
    		1 
@@ -26,7 +27,8 @@
 
 3. val x : Unit
 
-4. ~~~shell
+4. ans:
+   ~~~shell
    scala> for (i <- (0 to 10).reverse) System.out.println(i)
    10
    9
@@ -41,7 +43,8 @@
    0
    ~~~
 
-5. ~~~shell
+5. ans:
+   ~~~shell
    scala> def countdown(n:Int) = 
    	for (i <- (0 to n).reverse) 
    		System.out.println(i)
@@ -55,7 +58,8 @@
    0
    ~~~
 
-6. ~~~shell
+6. ans:
+   ~~~shell
    scala> def ans(string : String) : Long = {
    	var mul = 1L; 
    	for (ele <- string) 
@@ -66,7 +70,8 @@
    res1: Long = 9415087488
    ~~~
 
-7. ~~~shell
+7. ans:
+   ~~~shell
    scala> def ans(string : String) : Long = {
    	var mul = 1L; 
    	string.foreach(mul *= _.toLong); mul}
@@ -78,7 +83,8 @@
 
 8. the same with 7
 
-9. ~~~shell
+9. ans:
+   ~~~shell
    scala> def ans(args: String) : Long = { 
    	if (args.length == 1) 
    		args.head.toLong 
@@ -90,7 +96,8 @@
    res4: Long = 9415087488
    ~~~
 
-10. ~~~shell
+10. ans: 
+    ~~~shell
     scala> def ans(x:Double,n:Int) : Double = {
          | if (n == 0) 1L
          | else if (n > 0 && n%2 == 1) x*ans(x,n-1)
