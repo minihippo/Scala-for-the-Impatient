@@ -2,7 +2,8 @@
 
 ### Exercise
 
-1. ~~~Shell
+1. ans: 
+  ~~~Shell
   scala> 3.
   ~~~
 
@@ -20,7 +21,8 @@
   ==   doubleValue   isValidChar     signum         toOctalString
   ~~~
 
-2. ~~~shell
+2. ans:
+   ~~~shell
    scala> import scala.math._
    import scala.math._
 
@@ -56,7 +58,8 @@
    res3: Int = 10
    ~~~
 
-6. ~~~shell
+6. ans:
+   ~~~shell
    scala> val ans:BigInt = 2
    ans: scala.math.BigInt = 2
 
@@ -64,7 +67,8 @@
    res2: scala.math.BigInt = 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
    ~~~
 
-7. ~~~shell
+7. ans:
+   ~~~shell
    scala> import scala.util.Random
    import scala.util.Random
 
@@ -75,12 +79,14 @@
    res5: scala.math.BigInt = 1094141631787021174802643788977
    ~~~
 
-8. ~~~shell
+8. ans:
+   ~~~shell
    scala> probablePrime(100,Random).toString(36)
    res6: String = 325q071gt9nrizr89akt
    ~~~
 
-9. ~~~shell
+9. ans:
+   ~~~shell
    scala> "123".head
    res10: Char = 1
 
@@ -88,7 +94,8 @@
    res13: Char = 3
    ~~~
 
-10. ~~~shell
+10. ans: 
+   ~~~shell
    scala> "string".drop(3)
    res14: String = ing
 
