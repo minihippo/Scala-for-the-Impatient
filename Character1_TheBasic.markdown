@@ -3,23 +3,23 @@
 ### Exercise
 
 1. ans: 
-  ~~~Shell
-  scala> 3.
-  ~~~
+   ~~~Shell
+   scala> 3.
+   ~~~
 
-  ~~~shell
-  !=   >             floatValue      isValidInt     to               toRadians
-  %    >=            floor           isValidLong    toBinaryString   toShort
-  &    >>            getClass        isValidShort   toByte           unary_+
-  *    >>>           intValue        isWhole        toChar           unary_-
-  +    ^             isInfinite      longValue      toDegrees        unary_~
-  -    abs           isInfinity      max            toDouble         underlying
-  /    byteValue     isNaN           min            toFloat          until
-  <    ceil          isNegInfinity   round          toHexString      |
-  <<   compare       isPosInfinity   self           toInt
-  <=   compareTo     isValidByte     shortValue     toLong
-  ==   doubleValue   isValidChar     signum         toOctalString
-  ~~~
+   ~~~shell
+   !=   >             floatValue      isValidInt     to               toRadians
+   %    >=            floor           isValidLong    toBinaryString   toShort
+   &    >>            getClass        isValidShort   toByte           unary_+
+   *    >>>           intValue        isWhole        toChar           unary_-
+   +    ^             isInfinite      longValue      toDegrees        unary_~
+   -    abs           isInfinity      max            toDouble         underlying
+   /    byteValue     isNaN           min            toFloat          until
+   <    ceil          isNegInfinity   round          toHexString      |
+   <<   compare       isPosInfinity   self           toInt
+   <=   compareTo     isValidByte     shortValue     toLong
+   ==   doubleValue   isValidChar     signum         toOctalString
+   ~~~
 
 2. ans:
    ~~~shell
@@ -95,16 +95,16 @@
    ~~~
 
 10. ans: 
-   ~~~shell
-   scala> "string".drop(3)
-   res14: String = ing
+    ~~~shell
+    scala> "string".drop(3)
+    res14: String = ing
 
-   scala> "string".take(3)
-   res15: String = str
+    scala> "string".take(3)
+    res15: String = str
 
-   scala> "string".takeRight(2)
-   res16: String = ng
+    scala> "string".takeRight(2)
+    res16: String = ng
 
-   scala> "string".dropRight(2)
-   res17: String = stri
-   ~~~
+    scala> "string".dropRight(2)
+    res17: String = stri
+    ~~~
